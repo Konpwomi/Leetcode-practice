@@ -1,9 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <set>
-
-using namespace std;
-
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -18,14 +12,3 @@ public:
         return false;
     }
 };
-
-int main() {
-    Solution solution;
-    vector<int> nums = {1, 2, 3, 4, 5, 1};
-    if (solution.containsDuplicate(nums)) {
-        cout << "Contains duplicate" << endl;
-    } else {
-        cout << "No duplicates" << endl;
-    }
-    return 0;
-}
